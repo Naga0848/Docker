@@ -158,7 +158,7 @@
 
 ### Catalogue
 
-    ikkada line no-7 lo unna mongodb:27017 is the host. manam separate ga route53 ni em use cheyatledu. name of the container is the name of the host i.e., 
+    ikkada Optimized Docker Roboshop lo Catalogue Dockerfile lo line no-7 lo unna mongodb:27017 is the host. manam separate ga route53 ni em use cheyatledu. name of the container is the name of the host i.e., 
     mongdb
     we already know that mongodb is available on 27017 port no
     line 5 installs dependencies
