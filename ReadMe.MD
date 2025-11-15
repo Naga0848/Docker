@@ -100,7 +100,7 @@
     1. it can directly fetch the file from internet
     2. it can directly untar the file into container
 
-===================================================================================================
+===================================================================
 
 #### Docker-roboshop
 
