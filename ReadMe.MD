@@ -178,7 +178,6 @@
     It tells Docker: “When someone runs a container from this image, execute node server.js.”
 
     This starts your Node.js application by running the server.js file.
-=============
 
     the word node refers to the Node.js runtime—a JavaScript engine that lets you run JavaScript code outside of a browser, typically on servers.
 
@@ -191,7 +190,6 @@
 
     node server.js
     inside the container, which kicks off your app
-============
 
     Your Dockerfile starts with:
 
