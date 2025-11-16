@@ -65,5 +65,7 @@
 
         aws ec2 describe-vpcs --filters Name=tag:eksctl.cluster.k8s.io/v1alpha1/cluster-name,Values=<cluster-name>   >>> Command to see any VPCs are present
 
-        
+        eksctl create cluster --config-file=eks.yaml   >>> create cluster
+
+        eksctl delete cluster --config-file=eks.yaml   >>> delete cluster
 
