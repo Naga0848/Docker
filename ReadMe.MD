@@ -128,7 +128,6 @@
     ========
     While devloping images you can put some conditions while others are using your images...
 
-===================================================================
 
 #### Docker-roboshop
 
