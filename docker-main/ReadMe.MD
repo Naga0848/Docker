@@ -57,3 +57,13 @@
 
     aws iam delete-role --role-name <eks-role>
     aws iam delete-policy --policy-arn <arn>
+
+
+#### Commands
+
+        aws cloudformation list-stacks --stack-status-filter CREATE_COMPLETE UPDATE_COMPLETE ROLLBACK_COMPLETE DELETE_FAILED  >>> command to see if any stacks are present in ClodFormation
+
+        aws ec2 describe-vpcs --filters Name=tag:eksctl.cluster.k8s.io/v1alpha1/cluster-name,Values=<cluster-name>   >>> Command to see any VPCs are present
+
+        
+
